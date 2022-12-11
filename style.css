@@ -1,37 +1,62 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: #e0d9d1;
 }
 
-body {
-  background-color: #eae0d6;
+/* nav bar */
+#navBar{
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  display: inline;
+  overflow: hidden;
+  position: fixed; 
+  width: 105%;
+  background-color: #CDC1BB;
+  z-index: 1;
+}
+
+#navBar a{
+  float: left;
+  display: block;
+  color: black;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  height:50px;
+  padding: 30px 60px 30px 60px;
+  text-decoration: none;
+  margin: 0px;
+
+/*   margin-left: 0px; */
+/*   margin-top: 15px; */
 }
 
-#header {
-  background-image: url("food.jpg");
-  padding:100px;
+#navBar a:hover{
+  background: #e0d9d1;
+  color: #A55B35;
+  font-weight: bold;
+
+}
+/* end of nav bar */
+
+/* food banner */
+#foodBanner {
+  background-image: url("foodBackground.png");
+  background-size: cover;             
+  background-repeat: no-repeat;
+  background-position: center;  
+  padding: 300px;
+  text-align: center;
   
 }
 
 h1 {
-  font-family: "Montserrat";
-  font-size: 35px;
-  font-weight: bold;
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 10px;
+  font-size: 45px;
 }
 
-.dietButton {
-  font-family: "Montserrat";
-  padding:10px;
-  border: 2px;
+h4 {
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 5px;
 }
-
-.dietButton:hover {
-  background-color: #964B00;
-  color: white;
-  opacity: 0.8;
-}
-
-/* font-family: 'Montserrat', sans-serif; */
+/* end of food banner */

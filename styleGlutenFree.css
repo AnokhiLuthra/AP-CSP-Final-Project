@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #e0d9d1;
+}
+
+/* nav bar */
+#navBar{
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  display: inline;
+  overflow: hidden;
+  position: fixed; 
+  width: 105%;
+  background-color: #CDC1BB;
+}
+
+#navBar a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 60px 30px 60px;
+  text-decoration: none;
+  margin: 0px;
+
+/*   margin-left: 0px; */
+/*   margin-top: 15px; */
+}
+
+#navBar a:hover{
+  background: #e0d9d1;
+  color: #A55B35;
+  font-weight: bold;
+
+}
+/* end of nav bar */
+
+/* main title */
+h1 {
+  padding-top: 140px;
+  font-size: 40px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  color: #A55B35;
+  margin-top: 0px;
+  letter-spacing: 7px;
+  font-weight: thin;
+}
+/* end of main title */
+
+/* course */
+#courseTitle {
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+  letter-spacing: 4px;
+}
+
+#foodItem {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  align-items: center;
+  font-family: 'Arimo', sans-serif;
+  line-height: 30px; 
+  padding-bottom: 100px;
+}
+
+#foodTitle {
+  font-family: 'Arimo', sans-serif;
+  padding-bottom: 20px;
+}
+
+#potatoImg { 
+  max-height: 350px;
+}
+
+#chickenImg { 
+  max-height: 400px;
+}
+
+#raspberryImg { 
+  max-height: 300px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+#foodInfo {
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+  padding-bottom: 80px;
+}
+/* end of appetizer */
