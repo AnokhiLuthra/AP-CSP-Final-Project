@@ -70,7 +70,7 @@ h1 {
   align-items: center;
   font-family: 'Arimo', sans-serif;
   line-height: 30px; 
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 #foodTitle {
@@ -78,6 +78,7 @@ h1 {
   padding-bottom: 20px;
 }
 
+/* Gluten-free */
 #potatoImg { 
   max-height: 350px;
 }
@@ -87,7 +88,59 @@ h1 {
 }
 
 #raspberryImg { 
-  max-height: 300px;
+  max-height: 350px;
+}
+
+/* Non vegetarian */
+#wingsImg {
+  max-height: 400px;
+}
+
+#fajitaImg {
+  max-height: 350px;
+}
+
+#donutsImg {
+  max-height:450px;
+}
+
+/* Vegetatian */
+#cauliflowerImg {
+  max-height:400px;
+}
+
+#lasagnaImg {
+  max-height:400px;
+}
+
+#brownieImg {
+  max-height:450px;
+}
+
+/* Vegan */
+#dumplingsImg {
+  max-height:450px;
+}
+
+#bologneseImg {
+  max-height: 500px;  
+}
+
+#cheesecakeImg {
+  max-height: 400px;  
+}
+
+/* Lactose-Free */
+#cakeImg {
+  max-height: 500px;  
+}
+
+#YchickenImg {
+  max-height: 500px;  
+}
+
+#shrimpImg {
+  max-height: 500px;
 }
 
 img {

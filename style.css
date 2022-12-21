@@ -60,3 +60,40 @@ h4 {
   letter-spacing: 5px;
 }
 /* end of food banner */
+
+
+#surprise {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+  font-family: 'Arimo', sans-serif;
+  line-height: 30px;
+/*   padding-bottom: 10px; */
+  border-style: solid;
+  border-color: #CDC1BB;
+  border-width: 5px;
+  background: #e0d9d1;
+  padding:10px;
+}
+
+h5 {
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+}
+
+button {
+  font-family: 'Special Elite', cursive;
+  color: #A55B35;
+  border-width: 0px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+}

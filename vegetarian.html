@@ -8,15 +8,72 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="stylePages.css" rel="stylesheet" type="text/css" />
+  <!--   copy for font -->
+  <link href="stylePages.css" rel="stylesheet" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--   end of font -->
 </head>
 
 <body>
-<!--
-  Appetizer: Crispy Buffalo Cauliflower Bites (Coated in crispy panko, oven-baked, and tossed with homemade buffalo sauce, these make for an addictingly delicious, bite-sized appetizer! Link: https://www.forkinthekitchen.com/crispy-buffalo-cauliflower-bites/)
-  Main Course: Butternut Lasagna With Mushrooms (Butternut squash is roasted in the oven and becomes the silky sauce that infuses the lasagna with fall flavors. Link: https://www.feastingathome.com/butternut-lasagna-with-mushrooms-and-sage/)
-  Dessert: Brownies ( With crispy edges, fudgy middles, and rich chocolate flavor, these homemade brownies will disappear in no time. Link: https://www.loveandlemons.com/brownies-recipe/)
--->
+  <!-- nav bar -->
+  <div id = "navBar">
+    <a href = "index.html">HOME</a>
+    <a href = "lactoseFree.html">LACTOSE-FREE</a>
+    <a href = "glutenFree.html">GLUTEN-FREE</a>
+    <a href = "nonVeg.html">NON-VEG</a>
+    <a href = "vegan.html">VEGAN</a>
+    <a href = "vegetarian.html">VEGETARIAN</a>
+  </div> 
+<!--end of nav bar-->
+  
+  <div id = "mainTitle">
+    <h1>VEGETARIAN</h1>
+  </div>
+
+<!--appetizer-->
+  <div id = "course">
+    <h2 id = "courseTitle">~APPETIZER~</h2>
+    <div id = "foodItem">
+      <img id = "cauliflowerImg" src = "cauliflower.png">
+      <div id = "foodInfo">
+        <h2 id = "foodTitle">CRISPY BUFFALO CAULIFLOWER BITES</h2>
+        <p id = "foodText">Coated in crispy panko, oven-baked, and tossed with homemade buffalo sauce, these make for an addictingly delicious, bite-sized appetizer!<a href ="https://www.forkinthekitchen.com/crispy-buffalo-cauliflower-bites/"></br>Click for the full recipe</br></a></p>
+      </div>
+    </div>
+  </div>
+<!--end of appetizer-->
+  
+<!--main course-->
+  <div id = "course">
+    <h2 id = "courseTitle">~MAIN COURSE~</h2>
+    <div id = "foodItem">
+      <div id = "foodInfo">
+        <h2 id = "foodTitle">BUTTERNUT LASAGNA WITH MUSHROOMS</h2>
+        <p id = "foodText">Butternut squash is roasted in the oven and becomes the silky sauce that infuses the lasagna with fall flavors. <a href ="https://www.feastingathome.com/butternut-lasagna-with-mushrooms-and-sage/"><br>Click for the full recipe</br></a></p>
+      </div>
+      <img id = "lasagnaImg" src = "lasagna.png">
+    </div>
+  </div>
+<!--end of main course-->
+
+<!--dessert-->
+  <div id = "course">
+    <h2 id = "courseTitle">~DESSERT~</h2>
+    <div id = "foodItem">
+      <img id = "brownieImg" src = "brownies.png">
+      <div id = "foodInfo">
+        <h2 id = "foodTitle">BROWNIES</h2>
+        <p id = "foodText">With crispy edges, fudgy middles, and rich chocolate flavor, these homemade brownies will disappear in no time. <a href ="https://www.loveandlemons.com/brownies-recipe/"></br>Click for the full recipe</br></a></p>
+      </div>
+    </div>
+<!--end of dessert-->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="script.js"></script>
 
