@@ -11,8 +11,8 @@ html, body {
   font-size: 13px;
   display: inline;
   overflow: hidden;
-/*   position: fixed;  */
-  width: 105%;
+  position: fixed; 
+  width: 105%; 
   background-color: #CDC1BB;
   z-index: 1;
 }
