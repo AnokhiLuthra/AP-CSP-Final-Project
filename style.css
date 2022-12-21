@@ -11,7 +11,7 @@ html, body {
   font-size: 13px;
   display: inline;
   overflow: hidden;
-  position: fixed; 
+/*   position: fixed;  */
   width: 105%;
   background-color: #CDC1BB;
   z-index: 1;
@@ -22,7 +22,7 @@ html, body {
   display: block;
   color: black;
   text-align: center;
-  padding: 30px 60px 30px 60px;
+  padding: 30px 40px 30px 40px;
   text-decoration: none;
   margin: 0px;
 
@@ -44,7 +44,7 @@ html, body {
   background-size: cover;             
   background-repeat: no-repeat;
   background-position: center;  
-  padding: 300px;
+  padding: 180px;
   text-align: center;
   
 }
@@ -78,7 +78,23 @@ h4 {
   padding:10px;
 }
 
-h5 {
+#loginFull {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px; 
+  align-items: center;
+  font-family: 'Arimo', sans-serif;
+  line-height: 30px;
+  border-style: solid;
+  border-color: #CDC1BB;
+  border-width: 5px;
+  background: #e0d9d1;
+  padding:10px;
+}
+
+h3 {
   font-family: 'Arimo', sans-serif;
   letter-spacing: 2px;
 }
@@ -93,7 +109,23 @@ button {
   letter-spacing: 2px;
 }
 
+#button1:hover {
+  background: #CDC1BB;
+}
+
+#submitButton:hover {
+  background:#CDC1BB;
+}
+
+#submitButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 p {
   font-family: 'Arimo', sans-serif;
   letter-spacing: 2px;
+}
+
+input {
+  margin-top: 1px;
 }
